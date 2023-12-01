@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DDDAD6;
+    padding: 10px 60px;
+}
+
+header .h-logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header .h-logo img{
+    max-width: 110px;
+}
+
+header .h-logo h2{
+    color: rgb(0, 128, 0);
+    text-align: center;
+}
+
+header .h-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .h-links .h-link-a{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+header .h-links .h-link-a a{
+    color: gray;
+    margin: 10px;
+}
+
+header .h-links .h-link-a a:hover{
+    transition: 0.2s;
+    color: green;
+    margin: 12px;
+}
+
+header .h-links .h-link-b {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 82%;
+    right: 0%;
+}
+
+header .h-links .h-link-b a{
+    text-decoration: none;
+    padding: 9px;
+    margin: 40px;
+    color: green;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-right: 1px solid #DDDAD6;
+    font-size: 1.4rem;
+}
+
+header .h-links .h-link-b a:hover{
+    color: yellowgreen;
+    transition: 0.2s;
+}
+
+/* main */
+.main-box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+main .main-box img{
+    width: 60%;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.main-box .main-box-letter{
+    padding: 50px;
+    text-align: center;
+    background-color: #F3F3F3;
+    height: 100%;
+}
+
+.main-box .main-box-letter h1{
+    color: green;
+}
+
+.main-box .main-box-letter h2{
+    color: green;
+}
+
+.main-box .main-box-letter h4{
+    letter-spacing: 2px;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+
+.main-box .main-box-letter p{
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.main-box .main-box-letter button{
+    letter-spacing: 2px;
+    background-color: green;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.main-box .main-box-letter button:hover{
+    background-color: rgba(0, 128, 0, 0.664);
+    cursor: pointer;
+}
+
+/*  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-bottom:1px solid #DDDAD6;
+}
+main h2{
+    margin-bottom: 30px;
+    color: green;
+}
+main .main-box2{
+    display: flex;
+    text-align: center;
+}
+
+main .main-box2 img{
+    max-width: 40%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+main .main-box2 .main-box2-letter{
+    letter-spacing: 1px;
+    padding: 10px;
+    color: gray;
+    background-color: #F3F3F3;
+}
+
+main .main-box2 .main-box2-letter h4{
+    color: yellowgreen;
+    padding-bottom: 10px;
+}
+
+/*  */
+
+main h2{
+    color: green;
+    padding-top: 40px;
+}
+
+main .main-box3{
+    display: flex;
+}
+
+main .main-box3 .card-lifestyle img{
+    width: 100%;
+    height: 70%;
+}
+
+main .main-box3 .card-lifestyle{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    display: flex;
+    flex-direction: column;
+    max-width: 24%;
+    align-items: center;
+    margin: 10px;
+}
+
+main .main-box3 .card-lifestyle:hover{
+    background-color: rgb(7, 46, 7);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+main .main-box3 .card-lifestyle p{
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+    color: gray;
+}
+
+main .main-box3 .card-lifestyle h3{
+    color: green;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+main .main-box3 .card-lifestyle h4{
+    color: yellowgreen;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+/* main horse */
+
+main .main-horses{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+main .main-horses .horse-card{
+    width: 24%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 20px;
+}
+
+main .main-horses .horse-card img{
+    width: 100%;
+    height: 90%;
+}
+
+main .main-horses .horse-card h3{
+    color: white;
+    padding: 20px;
+    background-color: green;
+}
+
+/* news */
+
+main .main-news{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .main-news .news-box{
+    width: 19%;
+    margin: 7px;
+}
+
+main .main-news .news-box img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* giving */
+
+main .main-giving{
+    display: flex;
+    height: 26.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 75rem;
+}
+
+main .main-giving .giving-card{
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #5d5b58;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+main .main-giving .main-giving-img{
+    height: 100%;
+    width: 30%;
+}
+
+main .main-giving .giving-card h4{
+    color: whitesmoke;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+main .main-giving .giving-card p{
+    color: white;
+    padding: 20px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+
+/* main contact */
+
+#maincontact{
+    background-color: #F3F3F3;
+    margin: 70px;
+    margin-bottom: 140px;
+}
+
+#maincontact .cnt{
+    display: flex;
+    margin: auto;
+}
+
+#maincontact .cnt .f-input{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding: 20px
+}
+
+#maincontact .cnt .f-input label{
+    color: #5d5b58;
+    margin: 15px;
+    font-weight: 600;
+}
+
+#maincontact .cnt .f-input input{
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid #5d5b58;
+}
+
+#maincontact .cnt .f-input #sendinput{
+    background-color: #5d5b58;
+    color: white;
+    cursor: pointer;
+    padding: 9px;
+    margin: 15px;
+}
+
+#maincontact .cnt .f-input #sendinput:hover{
+    background-color: green;
+}
+
+#maincontact .cnt .f-textarea{
+    margin: 20px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    padding: 20px;
+    background-color: #DDDAD6;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid 1.4px #5d5b58;
+    margin-top: 55px;
+}
+
+footer p{
+    color: #5d5b58;
+    font-style: italic;   
+    padding: 6px;
+}
+
